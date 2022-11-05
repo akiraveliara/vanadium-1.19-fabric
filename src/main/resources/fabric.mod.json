@@ -1,38 +1,36 @@
 {
-  "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+	"schemaVersion": 1,
+	"id": "vanadium",
+	"version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
+	"accessWidener": "vanadium.accesswidener",
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+	"name": "Vanadium",
+	"description": "Vanadium 1.19.2, fabric",
+	"authors": [
+		"ExaInsanity"
+	],
+	"contact": {
+		"homepage": "https://github.com/ExaInsanity/vanadium-1.19-fabric",
+		"sources": "https://github.com/ExaInsanity/vanadium-1.19-fabric"
+	},
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+	"license": "CC0-1.0",
+	"icon": "assets/vanadium/icon.png",
 
-  "depends": {
-    "fabricloader": ">=0.14.9",
-    "fabric-api": "*",
-    "minecraft": "~1.19",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.irisfeanora.mods.vanadium.VanadiumMod"
+		]
+	},
+	"mixins": [
+		"vanadium.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.14.9",
+		"minecraft": "~1.19",
+		"java": ">=17"
+	}
 }
