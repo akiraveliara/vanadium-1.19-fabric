@@ -1,0 +1,4 @@
+accessWidener v1 named
+
+# universal discounts
+mutable field net/minecraft/world/item/trading/MerchantOffer baseCostA Lnet/minecraft/world/item/ItemStack;
